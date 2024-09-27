@@ -28,4 +28,5 @@ def camera():
     return render_template('camera.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Run the app on port 89
+    app.run(host='0.0.0.0', port=89, debug=True)
